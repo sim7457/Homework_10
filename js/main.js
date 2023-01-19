@@ -1,5 +1,5 @@
 $(function () {
-
+    AOS.init();
 
     var korail = ['KTX 이음', '차량정비', '무궁화호', 'KTX 승무원 고객응대']
 
@@ -25,8 +25,6 @@ $(function () {
         var sct = $('#quick').offset().top
         $('html,body').animate({ scrollTop: sct }, 600)
     })
-
-
 
 
 
